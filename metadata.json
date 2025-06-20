@@ -1,0 +1,5 @@
+{
+  "name": "Aviator AI Predictor",
+  "description": "A web app that simulates an AI predicting the next Aviator game multiplier using rule-based pattern logic. Users enter past results, and the app provides a prediction based on predefined rules.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aviator AI Predictor</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="importmap">
+    {
+      "imports": {
+        "react": "https://esm.sh/react@18.2.0",
+        "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
+        "react/jsx-runtime": "https://esm.sh/react@18.2.0/jsx-runtime"
+      }
+    }
+  </script>
+  <style>
+    /* Custom scrollbar for better aesthetics in dark theme */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #1e293b; /* slate-800 */
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #4f46e5; /* indigo-600 */
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #4338ca; /* indigo-700 */
+    }
+    html, body, #root {
+        height: 100%; /* Ensure #root and body can expand if needed by min-h-screen */
+    }
+    body {
+        background-color: #0f172a; /* Tailwind slate-900 */
+    }
+  </style>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-slate-900">
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
